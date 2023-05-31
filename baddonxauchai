@@ -1,0 +1,56 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Window = Rayfield:CreateWindow({
+    Name = "???",
+    LoadingTitle = "them bu lul qua",
+    LoadingSubtitle = "by Bstory",
+    ConfigurationSaving = {
+       Enabled = true,
+       FolderName = nil, -- Create a custom folder for your hub/game
+       FileName = "Premium Bstory Hub"
+    },
+    Discord = {
+       Enabled = true,
+       Invite = "YHfbb3M3Kq", -- The Discord invite code, do not include discord.gg/
+       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+    },
+    KeySystem = true, -- Set this to true to use our key system
+    KeySettings = {
+       Title = "7B5 Premium",
+       Subtitle = "Key System",
+       Note = "See You Again",
+       FileName = "Bstory Key",
+       SaveKey = true,
+       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+       Key = "7B5"
+    }
+ })
+
+Rayfield:Notify({
+    Title = "Hi 7B5 , Good Luck ",
+    Content = "Wellcome To Script",
+    Duration = 6.5,
+    Image = 4483362458,
+    Actions = { -- Notification Buttons
+       Ignore = {
+          Name = "Okay!",
+          Callback = function()
+            print("The user tapped Okay!")
+         end
+      },
+   },
+   })
+   local Tab = Window:CreateTab("All Members In Class", 4483362458) -- Title, Image
+   local Paragraph = Tab:CreateParagraph({Title = "Members", Content = "Captain : Phuong Y Members : Bstory , Khang , Loan Phuong, Tram , crocodile, Dung , Yen Vy , Nhi , Nam , Duc , Mai , Phuong Vy , Que Huong , Minh Thu , Khoi , Bao , Hao , Vy , Long , Han Canada , Thanh Tu , Cao Trinh , Thang ,  ❤"})
+
+
+
+
+   local Tab = Window:CreateTab("???", 4483362458) -- Title, Image
+   local Button = Tab:CreateButton({
+	Name = "Trum lua chua",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/BstoryVn/BloxFruits/main/......."))()
+        wait(10)
+		game:GetService('Players').LocalPlayer:Kick('See You Again❤')
+	end,
+})
